@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="memory-game">
+        <div class="memory-card" data-framework="datesama">
+            <img class="front-face" id="datesama" alt="datesama" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="datesama">
+            <img class="front-face" id="date" alt="datesama" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="meguro">
+            <img class="front-face" id="meguro" alt="meguro" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="meguro">
+            <img class="front-face" id="meme" alt="meguro" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="koji">
+            <img class="front-face" id="koji" alt="koji" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="koji">
+            <img class="front-face" id="koikoisu" alt="koji" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="iwamoto">
+            <img class="front-face" id="iwamoto" alt="iwamoto" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="iwamoto">
+            <img class="front-face" id="hikkun" alt="iwamoto" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="raul">
+            <img class="front-face" id="raul" alt="raul" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="raul">
+            <img class="front-face" id="raull" alt="raul" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="sakuma">
+            <img class="front-face" id="sakuma" alt="sakuma" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="sakuma">
+            <img class="front-face" id="sakkun" alt="sakuma" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="watanabe">
+            <img class="front-face" id="watanabe" alt="watanabe" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="watanabe">
+            <img class="front-face" id="shota" alt="watanabe" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="fukka">
+            <img class="front-face" id="fukka" alt="fukka" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="fukka">
+            <img class="front-face" id="mama" alt="fukka" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        
+
+        <!--<div class="memory-card" data-framework="datesama">
+            <img class="front-face" src="snowman/date-christmas.jpg" alt="datesama" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="datesama">
+            <img class="front-face" src="snowman/date-christmas.jpg" alt="datesama" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="meguro">
+            <img class="front-face" src="snowman/meme-christmas.jpg" alt="meguro" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="meguro">
+            <img class="front-face" src="snowman/meme-christmas.jpg" alt="meguro" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="koji">
+            <img class="front-face" src="snowman/koji-christmas.jpg" alt="koji" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="koji">
+            <img class="front-face" src="snowman/koji-christmas.jpg" alt="koji" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="iwamoto">
+            <img class="front-face" src="snowman/hikkun-christmas.jpg" alt="iwamoto" srcset="">
+            <img class="back-face" src="img/back.png" alt="=back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="iwamoto">
+            <img class="front-face" src="snowman/hikkun-christmas.jpg" alt="iwamoto" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="raul">
+            <img class="front-face" src="snowman/raul-christmas.jpg" alt="raul" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="raul">
+            <img class="front-face" src="snowman/raul-christmas.jpg" alt="raul" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="sakuma">
+            <img class="front-face" src="snowman/skm-christmas.jpg" alt="sakuma" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="sakuma">
+            <img class="front-face" src="snowman/skm-christmas.jpg" alt="sakuma" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="watanabe">
+            <img class="front-face" src="snowman/nabe-christmas.jpg" alt="watanabe" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="watanabe">
+            <img class="front-face" src="snowman/nabe-christmas.jpg" alt="watanabe" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="fukka">
+            <img class="front-face" src="snowman/fukka-christmas.jpg" alt="fukka" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div>
+        <div class="memory-card" data-framework="fukka">
+            <img class="front-face" src="snowman/fukka-christmas.jpg" alt="fukka" srcset="">
+            <img class="back-face" src="img/back.png" alt="back" srcset="">
+        </div> -->
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
